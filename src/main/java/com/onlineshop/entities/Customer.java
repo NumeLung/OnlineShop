@@ -3,7 +3,7 @@ package com.onlineshop.entities;
 import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
-
+    
 @Entity
 public class Customer {
 
@@ -48,5 +48,6 @@ public class Customer {
 
     public void setOrders(Set<Order> orders) {
         this.orders = orders;
+
     }
 }
